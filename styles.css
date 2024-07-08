@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
+    font-family: "Roboto", sans-serif;
+}
+
+.post {
+    background-color: white;
+    height: 750px;
+    width: 500px;
+    display: inline-block;
+}
+
+.post-header {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+}
+
+.header-logo {
+    padding-left: 18px;
+}
+
+.header-info {
+    padding-left: 10px;
+}
+
+.header-menu {
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+p {
+    margin: 0%;
+}
+
+.post-image {
+    height: 60%;
+    width: 100%;
+}
+
+.post-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.post-body {
+    display: inline-block;
+    height: 28%;
+    width: 100%;
+}
+
+.body-buttons {
+    display: flex;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+}
+
+.bt-1 {
+    padding-left: 15px;
+}
+
+.bt-2 {
+    padding-left: 9px;
+}
+.bt-3 {
+    padding-left: 9px;
+}
+
+.bt-4 {
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+.body-info {
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.body-info p {
+    margin-top: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
